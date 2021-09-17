@@ -4,17 +4,17 @@ fun main() {
 
     val cat = Cat()
     println(cat.age)
-    println(cat.meow())
-    println(cat.eat("Huri"))
+    cat.meow()
+    cat.eat("Huri")
     println(cat.color)
-    println(cat.eat())
+    cat.eat()
 
     val dog = Dog()
     println(dog.breed)
-    println(dog.bark())
+    dog.bark()
     println(dog.color)
-    println(dog.eat("addi"))
-    println(dog.eat())
+    dog.eat("addi")
+    dog.eat()
 
     val animal = Animal()
 
