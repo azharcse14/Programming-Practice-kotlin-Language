@@ -1,7 +1,7 @@
 package Kotlin.Collections
 
 fun main() {
-    var myArray = Array<Int>(5){ 0 }
+    val myArray = Array<Int>(5){ 0 }
 
     myArray[0] = 8
     myArray[4] = 33
