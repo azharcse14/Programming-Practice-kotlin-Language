@@ -7,7 +7,7 @@ fun main() {
     additionT(22,33,44,55)
 
     println(additionT(22.22, 33.33))
-    
+
 }
 
 fun additionT(a:Int, b:Int){
